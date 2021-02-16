@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">FährhausApp</string>
+    <string name="app_name">Fährhaus</string>
     <string name="praeambel">Die Anonyme Sucht-Selbsthilfe FÄHRHAUS ist eine Gemeinschaft von Süchtigen, die miteinander ihre Kraft und Erfahrung teilen, um ein sauberes Leben ohne Drogen zu führen. Zu unseren Zusammenkünften kann jeder kommen, der ein Drogenproblem hat, egal ob Alkohol, Tabletten oder andere Rauschmittel. Die einzige Bedingung für die Zugehörigkeit ist die Anerkennung unserer Grundlagen und der Wunsch, ohne Drogen zu leben. Wir haben keine Gebühren oder Beiträge, sondern unterhalten uns selbst durch unsere eigenen Spenden. Wir fordern Neulinge und Besucher nicht zum Spenden auf, alle anderen haben das Vorrecht, dies zu tun.</string>
     <string name="logo_desc">main_logo</string>
+    <string name="btn_MP_next">Weiter</string>
 </resources>
