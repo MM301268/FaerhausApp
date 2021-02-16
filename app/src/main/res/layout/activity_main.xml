@@ -7,10 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="384dp"
         android:layout_height="346dp"
         android:layout_marginBottom="120dp"
-        android:text="Die Anonyme Sucht-Selbsthilfe FÄHRHAUS ist eine Gemeinschaft von Süchtigen, die miteinander ihre Kraft und Erfahrung teilen, um ein sauberes Leben ohne Drogen zu führen. Zu unseren Zusammenkünften kann jeder kommen, der ein Drogenproblem hat, egal ob Alkohol, Tabletten oder andere Rauschmittel. Die einzige Bedingung für die Zugehörigkeit ist die Anerkennung unserer Grundlagen und der Wunsch, ohne Drogen zu leben. Wir haben keine Gebühren oder Beiträge, sondern unterhalten uns selbst durch unsere eigenen Spenden. Wir fordern Neulinge und Besucher nicht zum Spenden auf, alle anderen haben das Vorrecht, dies zu tun."
+        android:text="@string/praeambel"
         android:textAlignment="center"
         android:textColor="@color/design_default_color_primary_dark"
         android:textSize="18sp"
@@ -19,5 +20,17 @@
         app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/logo_desc"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/faehrhaus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
