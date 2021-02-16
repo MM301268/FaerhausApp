@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="346dp"
+        android:layout_marginBottom="120dp"
+        android:text="Die Anonyme Sucht-Selbsthilfe FÄHRHAUS ist eine Gemeinschaft von Süchtigen, die miteinander ihre Kraft und Erfahrung teilen, um ein sauberes Leben ohne Drogen zu führen. Zu unseren Zusammenkünften kann jeder kommen, der ein Drogenproblem hat, egal ob Alkohol, Tabletten oder andere Rauschmittel. Die einzige Bedingung für die Zugehörigkeit ist die Anerkennung unserer Grundlagen und der Wunsch, ohne Drogen zu leben. Wir haben keine Gebühren oder Beiträge, sondern unterhalten uns selbst durch unsere eigenen Spenden. Wir fordern Neulinge und Besucher nicht zum Spenden auf, alle anderen haben das Vorrecht, dies zu tun."
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="18sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
