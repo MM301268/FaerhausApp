@@ -3,4 +3,10 @@
     <string name="praeambel">Die Anonyme Sucht-Selbsthilfe FÄHRHAUS ist eine Gemeinschaft von Süchtigen, die miteinander ihre Kraft und Erfahrung teilen, um ein sauberes Leben ohne Drogen zu führen. Zu unseren Zusammenkünften kann jeder kommen, der ein Drogenproblem hat, egal ob Alkohol, Tabletten oder andere Rauschmittel. Die einzige Bedingung für die Zugehörigkeit ist die Anerkennung unserer Grundlagen und der Wunsch, ohne Drogen zu leben. Wir haben keine Gebühren oder Beiträge, sondern unterhalten uns selbst durch unsere eigenen Spenden. Wir fordern Neulinge und Besucher nicht zum Spenden auf, alle anderen haben das Vorrecht, dies zu tun.</string>
     <string name="logo_desc">main_logo</string>
     <string name="btn_MP_next">Weiter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="contact_info">Unsere Zusammenkünfte laufen derzeit über eine Telefonkonferenz ab. Sie findet am Mittwoch um 20:15 Uhr und am Samstag um 17:30 Uhr statt. Die Zugangsdaten fragt bitte per E-Mail oder telefonisch ab: </string>
+    <string name="faehrhaus_email">faehrhaus@gmx.net</string>
+    <string name="faehrhaus_phone">089 230 774 79</string>
 </resources>
