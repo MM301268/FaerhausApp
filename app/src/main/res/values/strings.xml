@@ -9,4 +9,17 @@
     <string name="contact_info">Unsere Zusammenkünfte laufen derzeit über eine Telefonkonferenz ab. Sie findet am Mittwoch um 20:15 Uhr und am Samstag um 17:30 Uhr statt. Die Zugangsdaten fragt bitte per E-Mail oder telefonisch ab: </string>
     <string name="faehrhaus_email">faehrhaus@gmx.net</string>
     <string name="faehrhaus_phone">089 230 774 79</string>
+    <string name="header_steps">Die 12 Schritte auf unserem Weg der Genesung:</string>
+    <string name="step1">1. Wir erkannten, daß wir süchtig sind, und die Droge unser Leben beherrschte.</string>
+    <string name="step2">2. Wir hatten keine Hoffnung mehr und das Ende unserer Hoffnung war das Ende unserer Verzweiflung. Wir gaben auf.</string>
+    <string name="step3">3. Wir ließen uns fallen und erfuhren Einsicht. Aus unserem verwirrten Inneren entsprang Lebensmut.</string>
+    <string name="step4">4. Wir spürten, nur durch bedingungslose Ehrlichkeit zu uns selbst können wir wieder zu uns selber stehen. Wir wurden unser erster Freund.</string>
+    <string name="step5">5. Wir zweifelten an unseren Fähigkeiten und erkannten unsere Beschränktheit. Wir nahmen unsere Krankheit an.</string>
+    <string name="step6">6. Wir sahen die Fehler und das Fehlverhalten unseres bisherigen Lebens.</string>
+    <string name="step7">7. Durch Abrechnung und Aufarbeitung wurden wir fähig, unser neues Leben zu gestalten. Wir sahen das Falsche als falsch..</string>
+    <string name="step8">8. Wir erfuhren, daß unsere Lebensgestaltung nicht unser Lebenszweck ist. Wir gaben uns und den Dingen ihren Platz.</string>
+    <string name="step9">9. Wir konnten ohne Ziel leben und entdeckten die Welt um uns und sahen ihren Einfluß.</string>
+    <string name="step10">10. Wir gaben unsere geistigen Sicherheiten auf und sahen unsere täglichen Illusionen. Dort, wo wir festhielten, ließen wir los. Wir fielen ins Leben.</string>
+    <string name="step11">11. Wir zeigten Dankbarkeit für unser sauberes Leben und wurden willens, Verantwortung für uns selbst zu übernehmen.</string>
+    <string name="step12">12. Wir wurden fähig zur Hilfe, ohne davon abhängig zu sein.</string>
 </resources>
