@@ -12,8 +12,8 @@ public class ContactActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact);
-
-        Button btn_CA_Next = findViewById(R.id.btn_CA_next);
+        getSupportActionBar().hide();
+        Button btn_CA_Next = findViewById(R.id.btn_CP_next);
         btn_CA_Next.setOnClickListener(new View.OnClickListener()
         {
             @Override
