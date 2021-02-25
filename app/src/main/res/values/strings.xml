@@ -23,4 +23,14 @@
     <string name="step10">10. Wir gaben unsere geistigen Sicherheiten auf und sahen unsere täglichen Illusionen. Dort, wo wir festhielten, ließen wir los. Wir fielen ins Leben.</string>
     <string name="step11">11. Wir zeigten Dankbarkeit für unser sauberes Leben und wurden willens, Verantwortung für uns selbst zu übernehmen.</string>
     <string name="step12">12. Wir wurden fähig zur Hilfe, ohne davon abhängig zu sein.</string>
+    <string name="title_activity_affiliation">AffiliationActivity</string>
+    <string name="affiliation_text">Ich bin hier, weil es letztlich kein Entkommen vor mir selbst gibt. Ich bleibe solange auf der Flucht, bis ich mich Euren Augen und Herzen zu stellen wage. Ehe ich es nicht ertrage, mein innerstes Geheimnis mit Euch zu teilen, werde ich nicht davon befreit sein. Ich werde einsam bleiben. Hier in der Gemeinschaft kann ich mir selbst begegnen, nicht als der Riese meiner Träume und auch nicht als der Zwerg meiner Ängste. Sondern als Mensch, der als Teil des Ganzen mitarbeitet.Auf diesem gemeinsamen Grund kann ich Wurzeln schlagen und wachsen. Nicht mehr allein wie im Tod, sondern lebendig als Mensch unter Menschen.</string>
+    <string name="affiliation_header">Zugehörigkeitsbekenntnis</string>
+    <string name="affiliation_footer">frei nach Richard Beauvais</string>
+    <string name="btn_last_Page">Erste Seite</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>

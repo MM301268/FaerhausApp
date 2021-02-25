@@ -7,18 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class StepsActivity2 extends AppCompatActivity {
+public class AffiliationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_steps2);
+        setContentView(R.layout.activity_affiliation);
         getSupportActionBar().hide();
-        Button btn_SP2_Next = findViewById(R.id.btn_SP2_next);
-        btn_SP2_Next.setOnClickListener(new View.OnClickListener() {
+        Button btn_AP_toMP = findViewById(R.id.btn_AP_toMP);
+        btn_AP_toMP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(StepsActivity2.this, AffiliationActivity.class));
+                startActivity(new Intent(AffiliationActivity.this, MainActivity.class));
             }
         });
     }
