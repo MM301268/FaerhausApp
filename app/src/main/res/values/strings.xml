@@ -9,7 +9,8 @@
     <string name="contact_info">Unsere Zusammenkünfte laufen derzeit über eine Telefonkonferenz ab. Sie findet am Mittwoch um 20:15 Uhr und am Samstag um 17:30 Uhr statt. Die Zugangsdaten fragt bitte per E-Mail oder telefonisch ab: </string>
     <string name="faehrhaus_email">faehrhaus@gmx.net</string>
     <string name="faehrhaus_phone">089 230 774 79</string>
-    <string name="header_steps">Die 12 Schritte auf unserem Weg der Genesung:</string>
+    <string name="header1_steps">Die ersten 6 Schritte auf unserem Weg der Genesung:</string>
+    <string name="header2_steps">Die zweiten 6 Schritte auf unserem Weg der Genesung:</string>
     <string name="step1">1. Wir erkannten, daß wir süchtig sind, und die Droge unser Leben beherrschte.</string>
     <string name="step2">2. Wir hatten keine Hoffnung mehr und das Ende unserer Hoffnung war das Ende unserer Verzweiflung. Wir gaben auf.</string>
     <string name="step3">3. Wir ließen uns fallen und erfuhren Einsicht. Aus unserem verwirrten Inneren entsprang Lebensmut.</string>
