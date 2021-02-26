@@ -5,40 +5,26 @@
     android:id="@+id/ContactActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/im_CP_logo"
-        android:layout_width="408dp"
-        android:layout_height="247dp"
-        android:layout_marginBottom="369dp"
-        android:contentDescription="@string/logo_desc"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/faehrhaus" />
-
     <TextView
         android:id="@+id/txt_CP_description"
-        android:layout_width="347dp"
-        android:layout_height="139dp"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
         android:layout_marginStart="13dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="13dp"
         android:layout_marginBottom="111dp"
         android:text="@string/contact_info"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/im_CP_logo"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <TextView
         android:id="@+id/txt_CP_Email"
@@ -51,9 +37,8 @@
         android:ems="10"
         android:text="@string/faehrhaus_email"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
         android:typeface="sans"
         app:layout_constraintBottom_toTopOf="@+id/txt_CP_phone"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,8 +58,8 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
         android:typeface="sans"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_CP_Email"
@@ -89,8 +74,19 @@
         android:layout_marginEnd="160dp"
         android:layout_marginBottom="35dp"
         android:text="@string/btn_MP_next"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_CP_phone" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/faehrhaus" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
