@@ -13,14 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        assert getSupportActionBar() != null;
         getSupportActionBar().hide();
         Button btn_MP_Next = findViewById(R.id.btn_MP_Next);
-        btn_MP_Next.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, ContactActivity.class));
-            }
+        btn_MP_Next.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, ContactActivity.class));
+            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         });
     }
 
