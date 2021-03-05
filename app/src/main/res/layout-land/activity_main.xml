@@ -9,12 +9,24 @@
     tools:context=".MainActivity"
     tools:visibility="visible">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="660dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/logo_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/faehrhaus" />
+
     <TextView
         android:id="@+id/txt_MP_praeambel"
-        android:layout_width="695dp"
-        android:layout_height="172dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="90dp"
+        android:layout_width="0dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
         android:background="@android:drawable/screen_background_light"
         android:text="@string/praeambel"
         android:textAlignment="center"
@@ -23,11 +35,10 @@
         android:textSize="18sp"
         android:typeface="sans"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_MP_Logo"
+        app:layout_constraintBottom_toTopOf="@+id/btn_MP_Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:text="@string/praeambel"
         tools:visibility="visible" />
 
@@ -36,28 +47,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="23dp"
         android:layout_marginEnd="160dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/btn_MP_next"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_MP_praeambel"
         tools:text="@string/btn_MP_next" />
-
-    <ImageView
-        android:id="@+id/img_MP_Logo"
-        android:layout_width="660dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="48dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/logo_desc"
-        app:layout_constraintBottom_toTopOf="@+id/txt_MP_praeambel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/faehrhaus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

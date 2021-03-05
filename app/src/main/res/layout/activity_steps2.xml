@@ -8,7 +8,7 @@
     tools:context=".StepsActivity2">
 
     <org.faehrhaus.mm.ResizableImageView
-        android:id="@+id/resizableImageView"
+        android:id="@+id/img_Faehrhaus_logo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/faehrhaus"
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toTopOf="@+id/txt_SP2_step7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resizableImageView" />
+        app:layout_constraintTop_toBottomOf="@+id/img_Faehrhaus_logo" />
 
     <TextView
         android:id="@+id/txt_SP2_step7"
