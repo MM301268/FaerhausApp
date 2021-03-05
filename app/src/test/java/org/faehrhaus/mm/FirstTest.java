@@ -24,7 +24,7 @@ public class FirstTest {
         DesiredCapabilities  cap = new DesiredCapabilities();
         cap.setCapability("platformName","Android");
         //cap.setCapability("platformVersion", "11.0.0");
-        cap.setCapability("platformVersion", "8.0.0");
+        //cap.setCapability("platformVersion", "8.0.0");
         cap.setCapability("appPackage","org.faehrhaus.mm");
         cap.setCapability("appActivity","org.faehrhaus.mm.MainActivity");
         try {
@@ -33,6 +33,7 @@ public class FirstTest {
             System.out.println(ex.toString());
         }
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.rotate(ScreenOrientation.LANDSCAPE);
     }
 
     @Test

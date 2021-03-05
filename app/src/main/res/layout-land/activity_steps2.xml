@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/layout_SP1"
+    android:id="@+id/layout_SP2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
-    tools:context=".StepsActivity1">
+    tools:context=".StepsActivity2">
 
     <ImageView
         android:id="@+id/imageView"
@@ -15,112 +15,112 @@
         android:layout_marginTop="48dp"
         android:layout_marginBottom="48dp"
         android:contentDescription="@string/logo_desc"
-        app:layout_constraintBottom_toTopOf="@+id/hdr_SP1_steps"
+        app:layout_constraintBottom_toTopOf="@+id/hdr_SP2_steps"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/faehrhaus" />
 
     <TextView
-        android:id="@+id/hdr_SP1_steps"
+        android:id="@+id/hdr_SP2_steps"
         android:layout_width="494dp"
         android:layout_height="25dp"
         android:layout_marginStart="192dp"
         android:layout_marginTop="80dp"
         android:layout_marginEnd="192dp"
         android:layout_marginBottom="196dp"
-        android:text="@string/header1_steps"
+        android:text="@string/header2_steps"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn_SP1_Next"
+        app:layout_constraintBottom_toTopOf="@+id/btn_SP2_next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txt_SP1_step1"
+        android:id="@+id/txt_SP2_step1"
         android:layout_width="340sp"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
-        android:text="@string/step1"
+        android:text="@string/step7"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_SP1_step2"
-        app:layout_constraintEnd_toStartOf="@+id/txt_SP1_step4"
+        app:layout_constraintBottom_toTopOf="@+id/txt_SP2_step2"
+        app:layout_constraintEnd_toStartOf="@+id/txt_SP2_step4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hdr_SP1_steps" />
+        app:layout_constraintTop_toBottomOf="@+id/hdr_SP2_steps" />
 
     <TextView
-        android:id="@+id/txt_SP1_step2"
+        android:id="@+id/txt_SP2_step2"
         android:layout_width="340dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
-        android:text="@string/step2"
+        android:text="@string/step8"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_SP1_step3"
-        app:layout_constraintEnd_toStartOf="@+id/txt_SP1_step5"
+        app:layout_constraintBottom_toTopOf="@+id/txt_SP2_step3"
+        app:layout_constraintEnd_toStartOf="@+id/txt_SP2_step5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_SP1_step1" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_SP2_step1" />
 
     <TextView
-        android:id="@+id/txt_SP1_step3"
+        android:id="@+id/txt_SP2_step3"
         android:layout_width="340dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
-        android:text="@string/step3"
+        android:text="@string/step9"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_SP1_Next"
-        app:layout_constraintEnd_toStartOf="@+id/txt_SP1_step6"
+        app:layout_constraintBottom_toTopOf="@+id/btn_SP2_next"
+        app:layout_constraintEnd_toStartOf="@+id/txt_SP2_step6"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_SP1_step2" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_SP2_step2" />
 
     <TextView
-        android:id="@+id/txt_SP1_step4"
+        android:id="@+id/txt_SP2_step4"
         android:layout_width="340dp"
         android:layout_height="60dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/step4"
+        android:text="@string/step10"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_SP1_step5"
+        app:layout_constraintBottom_toTopOf="@+id/txt_SP2_step5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txt_SP1_step1"
-        app:layout_constraintTop_toBottomOf="@+id/hdr_SP1_steps" />
+        app:layout_constraintStart_toEndOf="@+id/txt_SP2_step1"
+        app:layout_constraintTop_toBottomOf="@+id/hdr_SP2_steps" />
 
     <TextView
-        android:id="@+id/txt_SP1_step5"
+        android:id="@+id/txt_SP2_step5"
         android:layout_width="340dp"
         android:layout_height="55dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/step5"
+        android:text="@string/step11"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_SP1_step6"
+        app:layout_constraintBottom_toTopOf="@+id/txt_SP2_step6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txt_SP1_step2"
-        app:layout_constraintTop_toBottomOf="@+id/txt_SP1_step4" />
+        app:layout_constraintStart_toEndOf="@+id/txt_SP2_step2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_SP2_step4" />
 
     <TextView
-        android:id="@+id/txt_SP1_step6"
+        android:id="@+id/txt_SP2_step6"
         android:layout_width="340dp"
         android:layout_height="55dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/step6"
+        android:text="@string/step12"
         android:textColor="@color/black"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_SP1_Next"
+        app:layout_constraintBottom_toTopOf="@+id/btn_SP2_next"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txt_SP1_step3"
-        app:layout_constraintTop_toBottomOf="@+id/txt_SP1_step5" />
+        app:layout_constraintStart_toEndOf="@+id/txt_SP2_step3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_SP2_step5" />
 
     <Button
-        android:id="@+id/btn_SP1_Next"
+        android:id="@+id/btn_SP2_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
