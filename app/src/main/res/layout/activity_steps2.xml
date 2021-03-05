@@ -7,24 +7,24 @@
     android:background="@android:color/white"
     tools:context=".StepsActivity2">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
+    <org.faehrhaus.mm.ResizableImageView
+        android:id="@+id/resizableImageView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/logo_desc"
-        app:layout_constraintBottom_toTopOf="@+id/hdr_SP2_steps"
+        android:src="@drawable/faehrhaus"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/faehrhaus" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/hdr_SP2_steps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="16dp"
         android:text="@string/header2_steps"
@@ -35,7 +35,7 @@
         app:layout_constraintBottom_toTopOf="@+id/txt_SP2_step7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/resizableImageView" />
 
     <TextView
         android:id="@+id/txt_SP2_step7"
@@ -140,7 +140,6 @@
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_SP2_step12" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

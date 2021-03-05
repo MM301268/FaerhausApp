@@ -9,11 +9,23 @@
     tools:context=".MainActivity"
     tools:visibility="visible">
 
+    <org.faehrhaus.mm.ResizableImageView
+        android:id="@+id/resizableImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/faehrhaus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/txt_MP_praeambel"
-        android:layout_width="340dp"
-        android:layout_height="373dp"
-        android:layout_marginBottom="120dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
         android:background="@android:drawable/screen_background_light"
         android:text="@string/praeambel"
         android:textAlignment="center"
@@ -22,10 +34,10 @@
         android:textSize="18sp"
         android:typeface="sans"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_MP_Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resizableImageView"
         tools:text="@string/praeambel"
         tools:visibility="visible" />
 
@@ -33,28 +45,13 @@
         android:id="@+id/btn_MP_Next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="160dp"
         android:layout_marginBottom="32dp"
         android:text="@string/btn_MP_next"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_MP_praeambel"
         tools:text="@string/btn_MP_next" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/logo_desc"
-        app:layout_constraintBottom_toTopOf="@+id/txt_MP_praeambel"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/faehrhaus" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
