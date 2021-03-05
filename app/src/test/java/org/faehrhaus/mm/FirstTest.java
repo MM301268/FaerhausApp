@@ -24,32 +24,56 @@ public class FirstTest {
         DesiredCapabilities  cap = new DesiredCapabilities();
         cap.setCapability("platformName","Android");
         //cap.setCapability("platformVersion", "11.0.0");
-        //cap.setCapability("platformVersion", "8.0.0");
+        cap.setCapability("platformVersion", "8.0.0");
         cap.setCapability("appPackage","org.faehrhaus.mm");
         cap.setCapability("appActivity","org.faehrhaus.mm.MainActivity");
         try {
-            driver = new AppiumDriver((new URL("http://127.0.0.1:4723/wd/hub")),cap);
+            driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),cap);
+            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         } catch (Exception ex) {
             System.out.println(ex.toString());
         }
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-        driver.rotate(ScreenOrientation.LANDSCAPE);
+
     }
 
     @Test
-    public void testFaehrhausAppBasic(){
+    public void testFaehrhausAppRunThroughPortrait(){
         try {
+            driver.rotate(ScreenOrientation.PORTRAIT);
             MobileElement el1 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_MP_Next");
             el1.click();
             MobileElement el2 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_CP_next");
             el2.click();
             MobileElement el3 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_SP1_Next");
             el3.click();
-
+            MobileElement el4 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_SP2_next");
+            el4.click();
+            MobileElement el5 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_AP_toMP");
+            el5.click();
         } catch (Exception ex) {
             System.out.println(ex.toString());
         }
     }
+
+    @Test
+    public void testFaehrhausAppRunThroughLandscape(){
+        try {
+            driver.rotate(ScreenOrientation.LANDSCAPE);
+            MobileElement el1 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_MP_Next");
+            el1.click();
+            MobileElement el2 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_CP_next");
+            el2.click();
+            MobileElement el3 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_SP1_Next");
+            el3.click();
+            MobileElement el4 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_SP2_next");
+            el4.click();
+            MobileElement el5 = (MobileElement) driver.findElementById("org.faehrhaus.mm:id/btn_AP_toMP");
+            el5.click();
+        } catch (Exception ex) {
+            System.out.println(ex.toString());
+        }
+    }
+
 
     @After
     public void terminateAllTests()
